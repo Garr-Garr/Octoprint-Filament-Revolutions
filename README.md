@@ -29,7 +29,7 @@ An API is available to check the filament sensors status via a GET method:
 ## Installation
 
 * Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager).
-* Manually using this URL: https://github.com/RomRider/Octoprint-Filament-Revolutions/archive/master.zip
+* Manually using this URL: https://github.com/MakerGear/Octoprint-Filament-Revolutions/archive/refs/heads/master.zip
 
 ## Configuration
 
