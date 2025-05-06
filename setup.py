@@ -15,20 +15,24 @@ plugin_package = "octoprint_filamentrevolutions"
 plugin_name = "Octoprint-Filament-Revolutions"
 
 # The plugin's version. Can be overwritten within OctoPrint's internal data via __plugin_version__ in the plugin module
+<<<<<<< Updated upstream
 plugin_version = "1.0.3"
+=======
+plugin_version = "1.0.6"
+>>>>>>> Stashed changes
 
 # The plugin's description. Can be overwritten within OctoPrint's internal data via __plugin_description__ in the plugin
 # module
 plugin_description = """A revamped and rewritten filament monitor with jam and runout support that pauses the print when your filament runs out"""
 
 # The plugin's author. Can be overwritten within OctoPrint's internal data via __plugin_author__ in the plugin module
-plugin_author = "Jérôme Wiedemann"
+plugin_author = "Jérôme Wiedemann & Garret Broters"
 
 # The plugin's author's mail address.
-plugin_author_email = ""
+plugin_author_email = "gbroters@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/RomRider/Octoprint-Filament-Revolutions"
+plugin_url = "https://github.com/MakerGear/Octoprint-Filament-Revolutions"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"

@@ -8,6 +8,7 @@ from time import sleep
 from flask import jsonify
 import flask
 
+__plugin_pythoncompat__ = ">=2.7,<4"
 
 class FilamentSensorsRevolutions(octoprint.plugin.StartupPlugin,
                                  octoprint.plugin.EventHandlerPlugin,
@@ -162,7 +163,7 @@ class FilamentSensorsRevolutions(octoprint.plugin.StartupPlugin,
 
             jam_pin=-1,  # Default is no pin
             jam_bounce=250,  # Debounce 250ms
-            jam_switch=1,  # Normally Closed
+            jam_switch=0,  # Normally Open
             jammed_gcode='',
             jammed_pause_print=True,
 
